@@ -1,0 +1,12 @@
+#include <stdio.h>
+ 
+int main() {
+    printf("Ola usuario, bem vindo ao super-trunfo\n");
+    printf
+    char nome; // Declaração da variável 'nome' como um array de caracteres
+    printf("Qual seu nome: "); // Adiciona um prompt para o usuário
+    scanf("%s", nome); // Remove o texto do scanf, pois o printf já o faz
+    printf("Seu nome é: %s", nome);
+    return 0;
+
+}
